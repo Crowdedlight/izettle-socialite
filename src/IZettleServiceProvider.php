@@ -1,6 +1,6 @@
 <?php
 
-namespace crowdedlight\Socialite\IZettle\;
+namespace crowdedlight\Socialite\IZettle;
 
 use Illuminate\Support\ServiceProvider;
 
