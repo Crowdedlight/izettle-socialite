@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\IZettle;
+namespace crowdedlight\Socialite\IZettle\;
 
 use Laravel\Socialite\Two\ProviderInterface;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
