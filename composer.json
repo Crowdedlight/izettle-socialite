@@ -1,0 +1,25 @@
+{
+    "name": "crowdedlight/izettle-socialite",
+    "description": "IZettle OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "Frederik Mazur Andersen",
+        "email": "crowdedhd@gmail.com"
+    }],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/socialite": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "crowdedlight\\Socialite\\IZettle\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "crowdedlight\\Socialite\\IZettle\\IZettleServiceProvider"
+            ]
+        }
+    }
+}
