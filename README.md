@@ -1,4 +1,3 @@
-"# izettle-socialite" 
 # IZettle Provider for Laravel Socialite
 
 ## Installation and config
